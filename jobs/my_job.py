@@ -12,3 +12,4 @@ class SimpleLogJob(Job):
    def run(self,**kwargs):
        self.logger.info(str(kwargs))
        return kwargs
+   
